@@ -1088,7 +1088,7 @@ html {
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   color: #ffffff;
   background-color: #222222;
 }
@@ -1134,7 +1134,7 @@ img {
 }
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -1448,7 +1448,7 @@ dl {
 }
 dt,
 dd {
-  line-height: 1.846;
+  line-height: 1.42857143;
 }
 dt {
   font-weight: bold;
@@ -1495,7 +1495,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: 80%;
-  line-height: 1.846;
+  line-height: 1.42857143;
   color: #999999;
 }
 blockquote footer:before,
@@ -1530,7 +1530,7 @@ blockquote.pull-right .small:after {
 address {
   margin-bottom: 23px;
   font-style: normal;
-  line-height: 1.846;
+  line-height: 1.42857143;
 }
 code,
 kbd,
@@ -1566,7 +1566,7 @@ pre {
   padding: 11px;
   margin: 0 0 11.5px;
   font-size: 12px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
   color: #303030;
@@ -2277,7 +2277,7 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #464545;
 }
@@ -2549,7 +2549,7 @@ output {
   display: block;
   padding-top: 7px;
   font-size: 13px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   color: #464545;
 }
 .form-control {
@@ -2558,7 +2558,7 @@ output {
   height: 37px;
   padding: 6px 16px;
   font-size: 13px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   color: #464545;
   background-color: #ffffff;
   background-image: none;
@@ -3016,7 +3016,7 @@ select[multiple].input-lg {
   white-space: nowrap;
   padding: 6px 16px;
   font-size: 13px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   border-radius: 3px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3611,7 +3611,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.846;
+  line-height: 1.42857143;
   color: #ebebeb;
   white-space: nowrap;
 }
@@ -3660,7 +3660,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   color: #999999;
   white-space: nowrap;
 }
@@ -4076,7 +4076,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 3px 3px 0 0;
 }
@@ -4774,7 +4774,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   position: relative;
   float: left;
   padding: 6px 16px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   text-decoration: none;
   color: #ffffff;
   background-color: #00bc8c;
@@ -5052,7 +5052,7 @@ a.badge:focus {
   display: block;
   padding: 4px;
   margin-bottom: 23px;
-  line-height: 1.846;
+  line-height: 1.42857143;
   background-color: #222222;
   border: 1px solid #464545;
   border-radius: 3px;
@@ -5117,8 +5117,8 @@ a.thumbnail.active {
   color: #e6e6e6;
 }
 .alert-info {
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #33ccff;
+  border-color: #33ccff;
   color: #ffffff;
 }
 .alert-info hr {
@@ -5991,7 +5991,7 @@ button.close {
 }
 .modal-title {
   margin: 0;
-  line-height: 1.846;
+  line-height: 1.42857143;
 }
 .modal-body {
   position: relative;
@@ -6046,7 +6046,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.846;
+  line-height: 1.42857143;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -6164,7 +6164,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.846;
+  line-height: 1.42857143;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -7388,7 +7388,7 @@ input[type="checkbox"]:disabled:checked:after,
   background-color: #4caf50;
 }
 .alert-info {
-  background-color: #9c27b0;
+  background-color: #66ccff;
 }
 .alert-warning {
   background-color: #ff9800;
