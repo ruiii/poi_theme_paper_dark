@@ -2549,7 +2549,11 @@ output {
   display: block;
   padding-top: 7px;
   font-size: 13px;
+<<<<<<< HEAD
   line-height: 1.846;
+=======
+  line-height: 1.42857143;
+>>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #666666;
 }
 .form-control {
@@ -3610,7 +3614,11 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 1.846;
+=======
+  line-height: 1.42857143;
+>>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #666666;
   white-space: nowrap;
 }
@@ -3659,7 +3667,11 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
+<<<<<<< HEAD
   line-height: 1.846;
+=======
+  line-height: 1.42857143;
+>>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #bbbbbb;
   white-space: nowrap;
 }
