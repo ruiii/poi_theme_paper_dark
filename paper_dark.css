@@ -2279,7 +2279,7 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #464545;
+  border-top: 0px solid #464545;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -3016,7 +3016,9 @@ select[multiple].input-lg {
       touch-action: manipulation;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
+  border: 1px none transparent;
+  margin-top: 2px;
+  margin-left: 1px;
   white-space: nowrap;
   padding: 6px 16px;
   font-size: 13px;
@@ -3614,7 +3616,11 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
+<<<<<<< HEAD
+  line-height: 1.846;
+=======
   line-height: 1.42857143;
+>>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #666666;
   white-space: nowrap;
 }
@@ -3663,7 +3669,11 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
+<<<<<<< HEAD
+  line-height: 1.846;
+=======
   line-height: 1.42857143;
+>>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #bbbbbb;
   white-space: nowrap;
 }
@@ -4872,14 +4882,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #00bc8c;
-  border: 1px solid transparent;
-  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #00dba3;
+  background-color: transparent;
 }
 .pager .next > a,
 .pager .next > span {
@@ -4894,7 +4904,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #dddddd;
-  background-color: #00bc8c;
+  background-color: transparent;
   cursor: not-allowed;
 }
 .label {
@@ -5502,7 +5512,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 23px;
-  background-color: #303030;
+  background-color: #222222;
   border: 1px solid transparent;
   border-radius: 3px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
