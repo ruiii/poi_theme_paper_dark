@@ -2549,11 +2549,7 @@ output {
   display: block;
   padding-top: 7px;
   font-size: 13px;
-<<<<<<< HEAD
   line-height: 1.42857143;
-=======
-  line-height: 1.42857143;
->>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #666666;
 }
 .form-control {
@@ -3616,11 +3612,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-<<<<<<< HEAD
-  line-height: 1.846;
-=======
   line-height: 1.42857143;
->>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #666666;
   white-space: nowrap;
 }
@@ -3669,11 +3661,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
-<<<<<<< HEAD
-  line-height: 1.846;
-=======
   line-height: 1.42857143;
->>>>>>> eafde593745eeba214c74ceb205ccfb567778219
   color: #bbbbbb;
   white-space: nowrap;
 }
@@ -7264,6 +7252,7 @@ input[type="checkbox"],
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
+  top: -2px;
 }
 input[type="checkbox"]:focus,
 .checkbox input[type="checkbox"]:focus,
@@ -7275,10 +7264,10 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
   content: "";
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
   margin-top: -2px;
-  margin-right: 5px;
+  margin-right: 2px;
   border: 2px solid #666666;
   border-radius: 2px;
   -webkit-transition: 240ms;
@@ -7290,8 +7279,8 @@ input[type="checkbox"]:checked:before,
 .checkbox-inline input[type="checkbox"]:checked:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 6px;
+  top: -1px;
+  left: 4px;
   display: table;
   width: 6px;
   height: 12px;
