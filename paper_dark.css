@@ -2714,8 +2714,8 @@ fieldset[disabled] .checkbox label {
   border-radius: 3px;
 }
 select.input-sm {
-  height: 30px;
-  line-height: 30px;
+  height: 35px;
+  line-height: 35px;
 }
 textarea.input-sm,
 select[multiple].input-sm {
@@ -2725,8 +2725,8 @@ select[multiple].input-sm {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
-  line-height: 1.5;
-  border-radius: 3px;
+  line-height: 1.0;
+  border-radius: 0;
 }
 .form-group-sm select.form-control {
   height: 30px;
@@ -7134,7 +7134,7 @@ select.form-control::-ms-expand {
 }
 select.input-sm,
 select.form-control.input-sm {
-  font-size: 12px;
+  font-size: 10px;
 }
 select.input-lg,
 select.form-control.input-lg {
