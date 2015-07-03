@@ -1101,13 +1101,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #ffffff;
+  color:#80c8fe;
   text-decoration: none;
 }
 a:hover,
 a:focus {
   color: #0a6ebd;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted;
@@ -4036,6 +4036,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color: #ffffff;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
