@@ -7495,6 +7495,11 @@ input[type="checkbox"]:disabled:checked:after,
 .carousel-caption h6 {
   color: inherit;
 }
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  padding-right: 20px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANBAMAAACAxflPAAAAJFBMVEVmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmaS4ba/AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQffBwMSCjhCZlCuAAAAJUlEQVQI12NgYGAQYAADRkEILSgoAOEKQgWIA3D1UP1w88DmAwA3sAERwrRg4QAAAABJRU5ErkJggg==) no-repeat center center;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
