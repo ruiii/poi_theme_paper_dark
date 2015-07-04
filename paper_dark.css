@@ -3513,6 +3513,12 @@ fieldset[disabled] .btn-link:focus {
   display: block;
   width: 100%;
 }
+.btn-block:hover,
+.btn-block:focus{
+  background-color: #e6e6e6;
+    border-color: #aeaeae;
+
+}
 .btn-block + .btn-block {
   margin-top: 5px;
 }
@@ -3581,7 +3587,7 @@ tbody.collapse.in {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 160px;
+  min-width: 172px;
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
@@ -4858,7 +4864,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-top-right-radius: 3px;
 }
 .pager {
-  padding-left: 0;
+ 
+    padding-left: 15px;
+  padding-right: 15px;
+
   margin: 23px 0;
   list-style: none;
   text-align: center;
@@ -4868,16 +4877,19 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pager li > a,
 .pager li > span {
+  color: #ffffff;
   display: inline-block;
   padding: 5px 14px;
   background-color: transparent;
   border: 1px solid #dddddd;
   border-radius: 3px;
+
+margin: 2px;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: transparent;
+  background-color:grey;
 }
 .pager .next > a,
 .pager .next > span {
@@ -4891,8 +4903,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #dddddd;
-  background-color: transparent;
+  background-color: #999999;
   cursor: not-allowed;
 }
 .label {
