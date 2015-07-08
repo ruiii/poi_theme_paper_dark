@@ -6906,13 +6906,13 @@ button.close {
 .btn-info:hover,
 .btn-info:active:hover,
 .btn-info:focus {
-  background-color: #862197;
+  background-color: #1c699d;
 }
 .btn-info:active {
-  background-color: #862197;
-  background-image: -webkit-radial-gradient(circle, #862197 10%, #9c27b0 11%);
-  background-image: -o-radial-gradient(circle, #862197 10%, #9c27b0 11%);
-  background-image: radial-gradient(circle, #862197 10%, #9c27b0 11%);
+  background-color: #1c699d;
+  background-image: -webkit-radial-gradient(circle, #1c699d 10%, #1c678d 11%);
+  background-image: -o-radial-gradient(circle, #1c699d 10%, #1c678d 11%);
+  background-image: radial-gradient(circle, #1c699d 10%, #1c678d 11%);
   background-repeat: no-repeat;
   -webkit-background-size: 1000% 1000%;
           background-size: 1000%;
