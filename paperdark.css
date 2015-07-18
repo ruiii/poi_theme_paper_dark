@@ -185,6 +185,7 @@ textarea {
   overflow: auto;
 }
 optgroup {
+  background-color: #222222;
   font-weight: bold;
 }
 table {
