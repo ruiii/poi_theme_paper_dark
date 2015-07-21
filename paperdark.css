@@ -185,6 +185,7 @@ textarea {
   overflow: auto;
 }
 optgroup {
+  background-color: #222222;
   font-weight: bold;
 }
 table {
@@ -1314,7 +1315,7 @@ mark,
   background-color: #f39c12;
   padding: .2em;
 }
-.option{
+option{
   background-color: #222222;
 }
 .text-left {
