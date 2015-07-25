@@ -7448,16 +7448,16 @@ input[type="checkbox"]:disabled:checked:after,
   background-color: #cae6fc;
 }
 .progress-bar-success:last-child.progress-bar:before {
-  background-color: #262626;
+  background-color: #404040;
 }
 .progress-bar-info:last-child.progress-bar:before {
-  background-color: #262626;
+  background-color: #404040;
 }
 .progress-bar-warning:last-child.progress-bar:before {
-  background-color: #262626;
+  background-color: #404040;
 }
 .progress-bar-danger:last-child.progress-bar:before {
-  background-color: #262626;
+  background-color: #404040;
 }
 .close {
   font-size: 34px;
