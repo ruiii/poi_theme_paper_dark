@@ -5511,7 +5511,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 23px;
-  background-color: #262626;
+  background-color: #2a2a2a;
   border: 1px solid transparent;
   border-radius: 3px;
   margin-right: 1px;
@@ -7486,7 +7486,7 @@ input[type="checkbox"]:disabled:checked:after,
   left: 0;
   right: 0;
   z-index: -1;
-  background-color: #cae6fc;
+  background-color: #404040;
 }
 .progress-bar-success:last-child.progress-bar:before {
   background-color: #404040;
