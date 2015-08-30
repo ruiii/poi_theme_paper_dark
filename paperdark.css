@@ -1091,7 +1091,7 @@ body {
   font-size: 13px;
   line-height: 1.42857143;
   color: #ffffff;
-  background-color: #222222;
+  background-color: #292929;
 }
 input,
 button,
@@ -1286,7 +1286,7 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 20px;
+  font-size: 17px;
 }
 h6,
 .h6 {
@@ -5199,10 +5199,10 @@ a.thumbnail.active {
   overflow: hidden;
   height: 23px;
   margin-bottom: 23px;
-  background-color: #ebebeb;
+  /*background-color: #ebebeb;*/
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  /*-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);*/
 }
 .progress-bar {
   float: left;
@@ -5523,7 +5523,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 23px;
-  background-color: #2a2a2a;
+  background-color: #303030;
   border: 1px solid transparent;
   border-radius: 3px;
   margin-right: 1px;
@@ -7500,16 +7500,28 @@ input[type="checkbox"]:disabled:checked:after,
   background-color: #404040;
 }
 .progress-bar-success:last-child.progress-bar:before {
-  background-color: #404040;
+  /*background-color: #404040;*/
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .progress-bar-info:last-child.progress-bar:before {
-  background-color: #404040;
+  /*background-color: #404040;*/
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .progress-bar-warning:last-child.progress-bar:before {
-  background-color: #404040;
+  /*background-color: #404040;*/
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .progress-bar-danger:last-child.progress-bar:before {
-  background-color: #404040;
+  /*background-color: #404040;*/
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .close {
   font-size: 34px;
