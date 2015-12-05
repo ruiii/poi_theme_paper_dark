@@ -3969,15 +3969,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   vertical-align: middle;
 }
 .input-group-addon {
-  padding: 6px 16px;
+  padding: 6px 0;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
-  color: #464545;
+  color: white;
   text-align: center;
-  background-color: #464545;
-  border: 1px solid transparent;
-  border-radius: 3px;
+  background-color: transparent;
 }
 .input-group-addon.input-sm {
   padding: 5px 10px;
